@@ -1,0 +1,127 @@
+body {
+    font-family: 'Roboto';
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    size: 100px;
+}
+.one {
+    flex-direction: row;
+    background-color: #1F2937;
+    font-size: 15px;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    border: 0;
+    padding-top: 26px;
+    padding-bottom: 120px;
+}
+
+.two {
+    font: 'Roboto';
+    font-size: 48px;
+    padding: 118px;
+    padding-top: 50px;
+}
+.three {
+    background-color: #E5E7EB;
+    font: 'Roboto';
+    font-size: 48px;
+    padding: 118px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+}
+.all {
+    flex: 1;
+}
+.quotes {
+    max-width: 800px;
+}
+.sayer {
+    color: #1F2937;
+    font-weight: 700;    
+    text-align: right;
+    font-size: 23px;
+}
+.four {
+    font: 'Roboto';
+    font-size: 48px;
+    font-weight: bolder;
+    padding: 118px;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+.links {
+    color: #E5E7EB;
+    display: flex;
+    gap: 35px;
+}
+.left {
+    display: flex;
+    flex-direction: column;
+    width: 1900px;
+}
+.contentone {
+    display: flex;
+    flex-direction: column;
+    gap: 88px;
+    max-width: 1000px;
+}
+button {
+    background-color: #3882f6;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 10px;
+    max-width: 130px;
+    color: white;
+    font-weight: 900;
+}
+.right {
+    background-color: grey;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 2000px;
+    height: 235px;
+    color: white;
+    font-weight: 100;
+}
+.contents {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 2000px;
+    gap: 40px;
+}
+.header,.contents {
+    align-items: center;
+}
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sec {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    font-size: 19px;
+    background-color: #1F2937;
+    color: #f9faf8;
+    flex: 1;
+}
